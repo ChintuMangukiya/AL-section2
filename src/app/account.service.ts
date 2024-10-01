@@ -23,8 +23,6 @@ export class AccountsService{
       ];
 
       stattusUpdated = new EventEmitter<string>();
-
-
       
       constructor(private loggingService:LoggingService){}
 
